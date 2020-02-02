@@ -21,6 +21,6 @@ devuelve el siguiente JSON:
     {"olson": "Europe/Madrid", "posix": "CET-1CEST,M3.5.0,M10.5.0/3"}
 
 </center>
-El fichero [tzinfo.json](./tzinfo.json)  contiene la tabla de correspondencia entre el formato Olson y el formato POSIX. Las instrucciones para crearlo están en [tzinfo](https://github.com/pgurenko/tzinfo).
+El fichero [tzinfo](./tzinfo.json) contiene la tabla de correspondencia entre el formato Olson y el formato POSIX. Las instrucciones para crearlo están en [tzinfo](https://github.com/pgurenko/tzinfo).
 
 
