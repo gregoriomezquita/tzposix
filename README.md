@@ -1,7 +1,7 @@
 # tzposix
 Get the timezone posix string from GPS coordinates
 
-The software of some microcontrollers follows the POSIX standard of local time setting. This means that you must set the environment variable *“TZ”* with [setenv](http://man7.org/linux/man-pages/man3/setenv.3.html) and then call [tzset](http://man7.org/linux/man-pages/man3/tzset.3.html) de la liberia *time*.  
+The software of some microcontrollers follows the POSIX standard of local time setting. This means that you must set the environment variable *“TZ”* with [setenv](http://man7.org/linux/man-pages/man3/setenv.3.html) and then call [tzset](http://man7.org/linux/man-pages/man3/tzset.3.html) in *time* library.  
 tzposix.c is a CGI to convert the geographic location (lat, long) into the necessary POSIX string for the TZ environment variable. Returns a json containing the timezone Olson and POSIX version given certain GPS coordinates. Once compiled and downloaded in the cgi-bin directory of your web server, it is invoked as follows:  
 <center>
 
