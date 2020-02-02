@@ -27,7 +27,7 @@ Source code is inspired by the work of [Bertold Van den Bergh](https://github.co
 
 [Timezone Boundary Builder](https://github.com/evansiroky/timezone-boundary-builder) is the basis for generating the databases. You can also find software for several languages (C, Javascript, Python, PHP, etc).
 
-File [tzinfo.json](./tzinfo.json)  contains the correspondence table between the Olson format and the POSIX format. Instructions for creating it are in [pgurenko](https://github.com/pgurenko/tzinfo).
+File [tzinfo.json](./tzinfo.json)  contains the correspondence table between the Olson format and the POSIX format. Instructions for creating it are in [tzinfo](https://github.com/pgurenko/tzinfo).
 # Update
 Each time the [TimeZone DataBase](https://www.iana.org/time-zones) is changed, files [timezone16.bin](./timezone16.bin) o [timezone21.bin](./timezone21.bin) as well as [tzinfo.json](./tzinfo.json) must be updated.
 You can [subscribe](http://mm.icann.org/mailman/listinfo/tz-announce) to the mailing list where updates are announced.
