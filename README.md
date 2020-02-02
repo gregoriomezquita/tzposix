@@ -23,7 +23,9 @@ devuelve el siguiente JSON:
 </center>
 
 El código fuente está inspirado en el trabajo de [Bertold Van den Bergh](https://github.com/BertoldVdb/ZoneDetect).  Contiene instrucciones para la generación de las bases de datos geográficas de timezone ([timezone16.bin](./timezone16.bin) y [timezone21.bin](./timezone21.bin)) en [Database Generation](https://github.com/BertoldVdb/ZoneDetect/database).
+
 [Timezone Boundary Builder](https://github.com/evansiroky/timezone-boundary-builder) es la base para la generación de las bases de datos. También se puede encontrar software para varios lenguajes (C, Javascript, Python, PHP, etc).
+
 El fichero [tzinfo.json](./tzinfo.json)  contiene la tabla de correspondencia entre el formato Olson y el formato POSIX. Las instrucciones para crearlo están en [pgurenko](https://github.com/pgurenko/tzinfo).
 # Actualización
 Cada vez que cambia la [base de datos TimeZone](https://www.iana.org/time-zones) hay que actualizar tanto los ficheros [timezone16.bin](./timezone16.bin) o [timezone21.bin](./timezone21.bin) como el fichero [tzinfo.json](./tzinfo.json).
